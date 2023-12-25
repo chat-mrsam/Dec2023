@@ -1,0 +1,63 @@
+
+  
+
+.mainHead{
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 160px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+.question{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+.riddle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.riddle div{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    /* font-family: 'Lobster', cursive; */
+    color: black;
+    text-transform: capitalize;
+}
+
+input{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+}
+
+.found{
+    background-color: lightgray;
+}
+
+.correct{
+    background-color: green;
+}
+
+.clue{
+    display: none;
+}
